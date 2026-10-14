@@ -1,0 +1,13 @@
+CSV CLEANING REPORT
+===================
+Input file: raw_sales.csv
+Rows processed (excluding header): 7
+Clean records written: 4
+Duplicate records removed: 1
+Rejected records needing review: 2
+
+Notes:
+- Dates were normalised to YYYY-MM-DD where recognised.
+- Amounts were normalised to two decimal places.
+- Rejected rows were preserved separately with a reason.
+- Duplicate detection uses normalised date, customer, product and amount.
